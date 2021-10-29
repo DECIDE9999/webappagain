@@ -1,0 +1,12 @@
+.pageContainer {
+ width: 100%;
+ height: 100vh;
+ background-color: black;
+ color: white;
+ position: fixed;
+ visibility: hidden;
+}
+
+.visible{
+ visibility: visible;
+}

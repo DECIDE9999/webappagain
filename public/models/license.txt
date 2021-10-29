@@ -1,0 +1,11 @@
+Model Information:
+* title:	Fountain of Peirene - Corinth (CyArk Dataset)
+* source:	https://sketchfab.com/3d-models/fountain-of-peirene-corinth-cyark-dataset-47aba312ea00406d84b1b90f216da90e
+* author:	Vasilis Haroupas (https://sketchfab.com/vashar)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Fountain of Peirene - Corinth (CyArk Dataset)" (https://sketchfab.com/3d-models/fountain-of-peirene-corinth-cyark-dataset-47aba312ea00406d84b1b90f216da90e) by Vasilis Haroupas (https://sketchfab.com/vashar) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
