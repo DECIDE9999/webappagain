@@ -1,12 +1,30 @@
 .pageContainer {
- width: 100%;
- height: 100vh;
- background-color: black;
- color: white;
- position: fixed;
- visibility: hidden;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  position: fixed;
+  visibility: hidden;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 21px;
 }
 
-.visible{
- visibility: visible;
+.header {
+  font-size: 21px;
+}
+.content {
+  font-size: 15px;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.Collapsible__trigger {
+  font-weight: 400;
+
+  &:after {
+    content: "\f107";
+  }
+  
 }

@@ -26,7 +26,7 @@ class Header extends Component {
         <HeaderButton text="CV" onChange={this.handleChange} />
         <HeaderButton text="Contact" onChange={this.handleChange} />
       </div>
-    )
+    );
   }
 }
 export default Header;

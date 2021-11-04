@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import "./pages/pages.css";
+import "./pages/pages.scss";
 
 import CVPage from "./pages/CVpage";
 import Contact from "./pages/Contact";
@@ -22,16 +22,23 @@ class Index extends React.Component {
     this.setState({ page: e });
   }
 
-  pageController() {
-    if (this.state.page === "Contact") return <Contact />;
-    return <CVPage />;
-  }
-
   render() {
     return (
       <div>
         <Header text="Thanushen Balaskandar" onChange={this.handleChange} />
-        {this.pageController()}
+        {
+          <>
+            <div style={{ display: this.state.page === "CV" ? null : "none" }}>
+              <CVPage />
+            </div>
+            <div
+              style={{ display: this.state.page === "Contact" ? null : "none" }}
+            >
+              {" "}
+              <Contact />{" "}
+            </div>
+          </>
+        }
       </div>
     );
   }
