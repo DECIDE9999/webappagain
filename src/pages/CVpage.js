@@ -1,19 +1,6 @@
-import React, { Component, Suspense } from "react";
+import React, { Component, } from "react";
 import Collapsible from "./../components/collapsible/Collapsible";
 import Section from "./../components/section/Section";
-import { Canvas, useLoader } from "@react-three/fiber";
-import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
-import { PerspectiveCamera } from "@react-three/fiber";
-
-const Scene = () => {
-  const gltf = useLoader(GLTFLoader, "./models/statue/scene.gltf");
-  return (
-    <Suspense fallback={null}>
-      
-      <primitive object={gltf.scene} />
-    </Suspense>
-  );
-};
 
 class CVpage extends Component {
   constructor(props) {
@@ -27,12 +14,8 @@ class CVpage extends Component {
         <Collapsible label="Profile">
           <div>
             <Section>
-              <Canvas orthographic camera={{zoom:10, position:[10,0,175]}}>
-                <Suspense fallback={null}>
-                  <Scene />
-                </Suspense>
-              </Canvas>
-            </Section>
+		Thanushen Balaskandar
+	    </Section>
           </div>
         </Collapsible>
         <Collapsible label="Profile">
